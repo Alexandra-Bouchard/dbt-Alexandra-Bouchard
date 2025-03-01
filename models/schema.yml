@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: gz_raw_data
+    database: ethereal-link-446817-q6
+    schema: gz_raw_data
+    tables:
+      - name: raw_gz_sales
+        alias: sales
+      - name: raw_gz_product
+        alias: product
+      - name: raw_gz_ship
+        alias: ship
